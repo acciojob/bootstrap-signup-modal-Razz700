@@ -18,10 +18,11 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h1 class="modal-title fs-5" id="exampleModalLabel">Create Account</h1>
+        <h1 class="modal-title fs-5 text-muted" id="exampleModalLabel">Create Account</h1>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
+		  <form class="container-fluid">
 		  <label for="email1" class="fw-bold">Email address</label>
 		<input type="email" id="email1" required><br>
 		  <label for="password" class="fw-bold">Password</label>
@@ -29,7 +30,9 @@
 		   <label for="confirm-password" class="fw-bold">Confirm Password</label>
 		<input type="password" id="confirm-password" required><br>
       </div>
+		</form>
       <div class="modal-footer">
+		   <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
         <button type="submit" class="btn btn-success">Submit</button>
       </div>
     </div>
